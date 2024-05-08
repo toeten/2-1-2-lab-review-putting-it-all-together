@@ -1,5 +1,5 @@
 #cards {
-  /* Flex, space-around, 2rem, wrap */
+  /* Flex, space-around, gap 2rem, wrap */
 
 }
 
@@ -10,7 +10,7 @@
   padding: 1.5rem;
 
   /* Centered Flex Column, gap 1rem */
-  
+
 }
 
 .card img {

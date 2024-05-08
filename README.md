@@ -17,6 +17,17 @@
     * 2 columns in tablet view
     * 1 column in mobile view
 
+## Starting Code
+
+Here are best practices to take note of:
+* The use of semantic elements:
+  * `header` and `main` to structure the entire `body`
+  * `ul` and `li` to organize the sets of content elements
+* The use of `id` to target unique elements and `class` to target groups of elements
+* The use of separate CSS files
+  * `style.css` is used for reset styles and for styles that apply to the top-level `header` and `main` elements that are shared across both pages
+  * `home.css` has styles just for the home page while `gallery.css` has styles just for the gallery page.
+
 ## Mockups
 
 ### Home page in mobile view:
