@@ -3,12 +3,22 @@
 }
 
 #photo-grid {
-
-
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr;
+  align-items: center;
   /* Default: grid, 1 column, 5px gap, center aligned */
-
 }
 
+@media (min-width: 768px) {
+  #photo-grid {
+    grid-template-columns: 1fr 1fr;
+  }
+}
 /* At 768px, 2 columns */
-
+@media (min-width: 976px) {
+  #photo-grid {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
 /* At 976px, 3 columns */
