@@ -1,5 +1,22 @@
 # Putting It All Together
 
+In this lab, you will create a two-page website that uses flexbox and grid to make a beautiful layout! With VERY minimal styling, the website is basically ready for mobile but as the screen size gets bigger, the website starts to look a little sparse. Using media queries, you'll need to adjust the layout to take better advantage of the larger screen size.
+
+This is the **mobile-first** approach. It is great because, typically, you don't need much to make something look good for mobile. When using this design approach, here are two things to remember about grid, flexbox, and media queries:
+* Flexbox doesn't really need media queries to scale beautifully
+* Grid DOES need media queries to scale beautifully.
+
+## Mockups
+
+### Home page in mobile view:
+![](./images/flex-narrow.png)
+### Home page in tablet view:
+![](./images/flex-medium.png)
+### Home page in desktop view:
+![](./images/flex-wide.png)
+### Grid in desktop view:
+![](./images/gallery.png)
+
 ## Requirements
 
 * Build a 2-page app (home and gallery)
@@ -27,15 +44,3 @@ Here are best practices to take note of:
 * The use of separate CSS files
   * `style.css` is used for reset styles and for styles that apply to the top-level `header` and `main` elements that are shared across both pages
   * `home.css` has styles just for the home page while `gallery.css` has styles just for the gallery page.
-
-## Mockups
-
-### Home page in mobile view:
-![](./images/flex-narrow.png)
-### Home page in tablet view:
-![](./images/flex-medium.png)
-### Home page in desktop view:
-![](./images/flex-wide.png)
-### Grid in desktop view:
-![](./images/gallery.png)
-
